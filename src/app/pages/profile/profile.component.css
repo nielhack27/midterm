@@ -1,6 +1,12 @@
+app-nav{
+    z-index: 5;
+}
+
 .profile-container,
 ol,li,
 .content-container{
+    background: white;
+    z-index: -1;
     display:flex;
     justify-content: center;
     align-items: center;

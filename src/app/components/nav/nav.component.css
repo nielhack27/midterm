@@ -1,7 +1,7 @@
 mat-toolbar{
     position: fixed;
     top:0; left:0;
-    z-index: 3;
+    z-index:5;
     background-color: burlywood;
     border-bottom: 1px solid black;
 }
@@ -12,6 +12,7 @@ button{
 }
 
 mat-list{
+    background: white;
     margin-top:4rem;
     width:250px;
     height: 250px;
