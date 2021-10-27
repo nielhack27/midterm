@@ -1,0 +1,13 @@
+<mat-toolbar>
+    <button (click)='isToggle=!isToggle' mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+     <mat-icon>menu</mat-icon>
+  </button>
+ </mat-toolbar>
+
+<mat-list *ngIf='isToggle'>
+    <a routerLink='/'><mat-list-item>Profile</mat-list-item></a>
+    <mat-divider></mat-divider>
+    <a routerLink='/gallery'><mat-list-item>Gallery</mat-list-item></a>
+    <mat-divider></mat-divider>
+    <a routerLink='/contacts'><mat-list-item>Contacts</mat-list-item></a>
+  </mat-list>
